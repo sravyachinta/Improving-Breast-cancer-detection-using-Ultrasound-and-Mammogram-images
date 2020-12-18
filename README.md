@@ -22,4 +22,6 @@ Data augmentation is implemented with transfer learning. Transfer learning is a 
 Source and target models have feature and classification layers
 First, we train our baseline U-net model using source dataset and consider this as a source model. 
 In the source model the initial layers are feature layers and the last layer is the classification layer.
-After training the source model we separated the feature layers and freeze the weight update of the feature layer and then transferred that as input to the target model, which we trained using the target dataset
+After training the source model we separated the feature layers and freeze the weight update of the feature layer and then transferred that as input to the target model, which we trained using the target dataset.
+
+We had fit our Transfer Learning model to run for 150 epochs. The graphs and the predicted images depicted an improvement in the detection. 
